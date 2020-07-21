@@ -25,7 +25,7 @@ $very-dark-blue: hsl(209, 33%, 12%);
 }
 
 body {
-    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (2000 - 300)));
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (2000 - 300)));
     font-family: 'Libre Franklin', sans-serif;
     margin: 0;
     padding: 0;
@@ -130,8 +130,8 @@ main {
 
         .icon {
             color: $blue;
-            width: 40px;
-            height: 40px;
+            width: 2em;
+            height: 2em;
             border-radius: 50%;
             border: 1px solid $pale-blue;
 
