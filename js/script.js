@@ -9,9 +9,7 @@ function validateEmail(emailField) {
 
 formBtn.addEventListener('click', function () {
     if(!validateEmail(formInp)) {
-        error.classList.replace('hidden', 'flex-display');
-    } else {
-        error.classList.replace('flex-display','hidden');
+        formInp.classList.add('error');
     }
 });
 
