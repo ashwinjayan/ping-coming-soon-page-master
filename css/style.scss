@@ -10,6 +10,23 @@ $light-red: hsl(354, 100%, 66%);
 $gray: hsl(0, 0%, 59%);
 $very-dark-blue: hsl(209, 33%, 12%);
 
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .attribution {
     font-size : 11px;
     text-align: center;
