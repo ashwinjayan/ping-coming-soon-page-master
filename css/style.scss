@@ -38,6 +38,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    color: $very-dark-blue;
 }
 
 .hero {
@@ -46,6 +48,7 @@ main {
     align-items: center;
 
     h1>span {
+        color: $gray;
         font-weight: 300;
     }
 
