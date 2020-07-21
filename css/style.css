@@ -52,10 +52,6 @@ main {
           align-items: center;
 }
 
-.hero h1 {
-  margin-bottom: 0.2em;
-}
-
 .hero h1 > span {
   font-weight: 300;
 }
